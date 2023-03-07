@@ -9,7 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 
 # 填写您的Telegram Bot Token
-TOKEN = '6250704511:AAGsffiXivAtCnGBqmDbIwb4ESsOwoS0diM'
+TOKEN = 'YOUR_TOKEN_HERE'
 
 # 创建一个Updater对象
 updater = Updater(TOKEN, use_context=True)
